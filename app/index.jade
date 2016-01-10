@@ -1,0 +1,13 @@
+extends layouts/default
+
+block content
+  .row.button-group.filter-button-group
+    a(data-filter="*" href="#").col-md-2.button <strong>Category1</strong>
+    a(data-filter=".cat1" href="#").col-md-2.button <strong>Category2</strong>
+    a(data-filter=".cat2" href="#").col-md-2.button <strong>Category3</strong>
+    a(data-filter=".cat3" href="#").col-md-2.button <strong>Category4</strong>
+    a(data-filter=".cat4" href="#").col-md-2.button <strong>Category5</strong>
+    a(data-filter=".cat5" href="#").col-md-2.button <strong>Category6</strong>
+  <hr>
+  .row
+    my-app loading...
